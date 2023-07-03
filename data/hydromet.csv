@@ -1,0 +1,29 @@
+DISTRICT,STATION,SITE,LATITUDE,LONGITUDE,EQUIPMENT
+DIBRUGARH,Dikom(AWS),Dikom Parbarti Devi Middle English School,27.416,95.071,AWS
+DIBRUGARH,Kenduguri (ARG),Sologuri Aghunibari M. V. School,27.303,95.059,ARG
+DHEMAJI,Bali Sori (AWS),No. 1 Santipur L P School,27.548,94.476,AWS
+LAKHIMPUR,Bordoibam (AWS),Bordoibam Gram Panchayat office (Public Facilation Centre),27.3121,94.3879,AWS
+DHEMAJI,Jiadhalmukh Picnic Spot (AWLR),Cliff at Jiadhal Picnic Spot,27.571,94.448,AWLR
+TINSUKIA,Tingrai Village (ARG),Tingrai Rajnikanta Barua Higher Secondary School,27.457,95.581,ARG
+DHEMAJI,Tekjuri (AWS),Jairampur Higher Secondary School,27.513,94.436,AWS
+DHEMAJI,Gohaingaon (AWS),Rupjyoti Higher Secondary School,27.352,94.433,AWS
+TINSUKIA,Tirap river at Molung (AWLR),Irrigation Department Pump station,27.3128,95.7354,AWLR
+DIBRUGARH,Tipling River At Tipling Bridge (AWLR),Near Tipling ghat High School,27.333,95.325,AWLR
+DIBRUGARH,Tingrai River at Tingrai Bridge (AWLR),Tingrai Bridge at National Highway 215,27.3627,95.214,AWLR
+DIBRUGARH,Sessa Bridge (AWLR),Sessa Bridge at National Highway 2 (near SESSA TINIALI MOIDAMANI HIGH SCHOOL),27.3114,94.8839,AWLR
+TINSUKIA,Changmai Gaon (AWS),Laipuli High School,27.452,95.296,AWS
+TINSUKIA,Tekeri block (ARG),Tirap High School,27.346,95.852,ARG
+DIBRUGARH,Duliajan (AWS),"Water Resources Inspection Bunglow, Dibrugarh W.R Division, Near Tipling High School",27.3339,95.3301,AWS
+DHEMAJI,Kumotiya Bridge,Kumotiya Bridge,27.3846,94.4207,AWLR
+TINSUKIA,Makum Tea Garden,Molung Bengali gaon,27.3014,95.7429,AWS
+NALBARI,Dhamdhama,Dhamdhama Senior Secondary School,26.5608,91.4813,ARG
+NALBARI,Kaithalkuchi,Modhupur Block Development Office,26.4486,91.3433,AWS
+BARPETA,Teleria/Kayakuchi,Sarutapa MPHC,26.4285,91.0722,ARG
+BARPETA,Sidhani Village,Medhirtary High School,26.3036,90.9548,AWS
+CHIRANG,Oxiguri,"Adarsha Vidyalaya, Boro Bazar, Bhumkipara",26.6028,90.6458,AWS
+CHIRANG,Panbari,Panbari High school,26.596,90.8308,ARG
+CHIRANG,Kuthurijhar,GKB College,26.574,90.9858,ARG
+BAKSA,Dangri Gaon,Golagaon village,26.7237,91.2506,AWS
+,,,,,
+,,,,,
+,,,,,
