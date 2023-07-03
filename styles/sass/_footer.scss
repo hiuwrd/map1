@@ -1,0 +1,22 @@
+footer {
+	height: 75px;
+	background-color:$fwsAccent;
+	color:#fff;
+	text-align:center;
+	padding:10px;
+
+	a {
+		color:#fff;
+		text-decoration: none;
+		display:inline-block;
+
+		&:hover {
+			text-decoration: underline;
+			color:#fff;
+		}
+	}
+	
+	#links {
+		
+	}
+}

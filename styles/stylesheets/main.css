@@ -1,0 +1,293 @@
+/*
+	Built by Roy Hewitt
+	Created: May 12, 2014
+	Updated:
+
+	Sass is a CSS pre-processing language that gives us all sorts of nifty tools like variables, and mixins.  Learn more at
+	http://sass-lang.com/
+
+	Scss stylesheets are compiled using a Ruby Gem called Compass.  It can be found at http://compass-style.org/install/
+
+	All scss stylesheets are eventually compiled into vanilla CSS.  If you're unfamiliar with scss feel free to stick to
+	plain old CSS.
+
+	CSS is much easier to maintain when it is split up into discrete chunks.  In order to compile sass files into a single 
+	stylesheet we need to import the individual pieces into a master file (this is that file!).
+*/
+/* line 1, ../sass/_header.scss */
+header {
+  height: 50px;
+  margin: 0;
+  padding: 0;
+}
+/* line 6, ../sass/_header.scss */
+header #logo {
+  position: absolute;
+  left: 15px;
+  top: 4px;
+}
+/* line 12, ../sass/_header.scss */
+header #org-bar {
+  height: 36px;
+  background-color: #000;
+  color: #fff;
+}
+/* line 17, ../sass/_header.scss */
+header #org-bar h2 {
+  padding: 7px 0 0 0;
+  margin: 0 0 0 150px;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* line 25, ../sass/_header.scss */
+header #title-bar {
+  height: 50px;
+  background-color: #fff;
+  color: #000;
+}
+/* line 30, ../sass/_header.scss */
+header #title-bar h1 {
+  padding: 10px auto;
+  margin: 0 0 0 2px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/* line 39, ../sass/_header.scss */
+header #office-bar {
+  margin-top: 12px;
+  height: 28px;
+  background-color: #336699;
+  position: relative;
+  color: white;
+}
+/* line 45, ../sass/_header.scss */
+/*header #office-bar h5 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0px;
+  top: auto;
+}*/
+header #office-bar2 {
+  height: 60px;
+  background-color: #336699;
+  position: relative;
+  color: white;
+}
+
+/* line 35, ../sass/_leaflet-sidebar.scss */
+.leaflet-sidebar {
+  position: absolute;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  z-index: 2000;
+}
+/* line 44, ../sass/_leaflet-sidebar.scss */
+.leaflet-sidebar.left {
+  left: -500px;
+  transition: left 0.5s, width 0.5s;
+  padding-right: 0;
+}
+/* line 50, ../sass/_leaflet-sidebar.scss */
+.leaflet-sidebar.left.visible {
+  left: 0;
+}
+/* line 55, ../sass/_leaflet-sidebar.scss */
+.leaflet-sidebar.right {
+  right: -500px;
+  transition: right 0.5s, width 0.5s;
+  padding-left: 0;
+}
+/* line 61, ../sass/_leaflet-sidebar.scss */
+.leaflet-sidebar.right.visible {
+  right: 0;
+}
+/* line 66, ../sass/_leaflet-sidebar.scss */
+.leaflet-sidebar > .leaflet-control {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 8px 24px;
+  font-size: 1.1em;
+  background: white;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.65);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 82, ../sass/_leaflet-sidebar.scss */
+.leaflet-touch .leaflet-sidebar > .leaflet-control {
+  box-shadow: none;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background-clip: padding-box;
+}
+@media (max-width: 767px) {
+  /* line 35, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar {
+    width: 100%;
+    padding: 0;
+  }
+  /* line 26, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.left.visible ~ .leaflet-left {
+    left: 100%;
+  }
+  /* line 30, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.right.visible ~ .leaflet-right {
+    right: 100%;
+  }
+  /* line 94, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.left {
+    left: -100%;
+  }
+  /* line 97, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.left.visible {
+    left: 0;
+  }
+  /* line 102, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.right {
+    right: -100%;
+  }
+  /* line 105, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.right.visible {
+    right: 0;
+  }
+  /* line 110, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar > .leaflet-control {
+    box-shadow: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+  /* line 114, ../sass/_leaflet-sidebar.scss */
+  .leaflet-touch .leaflet-sidebar > .leaflet-control {
+    border: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 35, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar {
+    width: 305px;
+  }
+  /* line 26, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.left.visible ~ .leaflet-left {
+    left: 305px;
+  }
+  /* line 30, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.right.visible ~ .leaflet-right {
+    right: 305px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 35, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar {
+    width: 390px;
+  }
+  /* line 26, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.left.visible ~ .leaflet-left {
+    left: 390px;
+  }
+  /* line 30, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.right.visible ~ .leaflet-right {
+    right: 390px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 35, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar {
+    width: 460px;
+  }
+  /* line 26, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.left.visible ~ .leaflet-left {
+    left: 460px;
+  }
+  /* line 30, ../sass/_leaflet-sidebar.scss */
+  .leaflet-sidebar.right.visible ~ .leaflet-right {
+    right: 460px;
+  }
+}
+/* line 132, ../sass/_leaflet-sidebar.scss */
+.leaflet-sidebar .close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 31px;
+  height: 31px;
+  color: #333;
+  font-size: 25pt;
+  line-height: 1em;
+  text-align: center;
+  background: white;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  cursor: pointer;
+  z-index: 8;
+}
+
+/* line 151, ../sass/_leaflet-sidebar.scss */
+.leaflet-left {
+  transition: left 0.5s;
+}
+
+/* line 155, ../sass/_leaflet-sidebar.scss */
+.leaflet-right {
+  transition: right 0.5s;
+}
+
+/* line 1, ../sass/_map.scss */
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  height: 75px;
+  background-color: #336699;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+/* line 8, ../sass/_footer.scss */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+/* line 13, ../sass/_footer.scss */
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+/* line 24, ../sass/main.scss */
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 32, ../sass/main.scss */
+.tab-content {
+  margin-top: 10px;
+}
+
+.preloader{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-image: url('../../images/default.gif');
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	background-position: center;
+}

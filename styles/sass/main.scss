@@ -1,0 +1,34 @@
+/*
+	Built by Roy Hewitt
+	Created: May 12, 2014
+	Updated:
+
+	Sass is a CSS pre-processing language that gives us all sorts of nifty tools like variables, and mixins.  Learn more at
+	http://sass-lang.com/
+
+	Scss stylesheets are compiled using a Ruby Gem called Compass.  It can be found at http://compass-style.org/install/
+
+	All scss stylesheets are eventually compiled into vanilla CSS.  If you're unfamiliar with scss feel free to stick to
+	plain old CSS.
+
+	CSS is much easier to maintain when it is split up into discrete chunks.  In order to compile sass files into a single 
+	stylesheet we need to import the individual pieces into a master file (this is that file!).
+*/	
+@import "_variables";
+@import "_header";
+@import "_leaflet-sidebar";
+//@import "_sidebar";
+@import "_map";
+@import "_footer";
+
+html, body {
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100%;
+	overflow:hidden; // don't allow scrollbars that would throw off the layout
+}
+
+.tab-content {
+	margin-top:10px;
+}
