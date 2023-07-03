@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <title>Hydro-Informatics Unit || Guwahati, Assam</title>
+
+        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <!-- For IE -->
+        <meta https-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- For Resposive Device -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="56x56" href="images/logo1.png">
+        
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles/vendor/jquery-ui-1.10.4.custom.min.css">
+        <link rel="stylesheet" href="styles/stylesheets/main.css">
+        <!-- Leaflet styles for this template -->
+        <link href="styles/leaflet.css" rel="stylesheet">
+        
+        <!--leaflet js-->
+        <script type="text/javascript" src="scripts/leaflet.js"></script>
+        <script type="text/javascript" src="scripts/markerIcon.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!-- DOM Utility Library -->
+        
+    </head>
+    <body>
+    <div class="preloader"></div>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Disclaimer Modal (the thing that pops down when the page loads, usually used for disclaimers, about sections, etc.) -->
+        <div class="modal fade" id="disclaimer-modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Welcome to HIU-WRD!</h4>
+                    </div>
+
+                    
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <!-- End Disclaimer Modal -->
+
+        <!-- Start Header -->
+        <header>
+            <!-- <div id="org-bar">
+                <h2 style="float: right;"></h2>
+            </div> -->
+            <div id="title-bar">
+                <a href="https://fremaa.assam.gov.in">
+                <img id="logo" src="images/hiulogo.png" alt="HIUlogo" title="HIU WRD, Govt. of Assam" width="260" height="60">
+                </a>
+                <h1 style="float: right; margin-top: 6px; margin-right: 15px;"><img src="images/emblem-dark.png" width="52px" height="52px"></h1>
+            </div>
+            <div id="office-bar">
+                <h5 style="float: left; margin-left: 10px;">
+                    FLOOD AND RIVER EROSION MANAGEMENT AGENCY OF ASSAM (FREMAA)
+                </h5>
+                <h5 style="float: right; margin-right: 10px;">WATER RESOURCES, Govt. of Assam</h5>
+            </div>
+            
+        </header>
+        <!-- End Header -->
+
+        <!-- Start Sidebar -->
+        <section id="sidebar">
+            <div class="sidebar-title">
+                <h3><kbd>Legend Information</kbd></h3>
+            </div>
+            <div class="sidebar-content">
+                <h4></h4>
+                <img src="./assets/aws.png" width="36" height="36">&nbsp;AWS<br/><br/>
+                <img src="./assets/arg.png" width="36" height="36">&nbsp;ARG<br/><br/>
+                <img src="./assets/awlr.png" width="36" height="36">&nbsp;AWLR<br/><br/>
+            </div>
+        </section>
+        <!-- End Sidebar -->
+
+        <!-- Start Map -->
+        <section id="map"></section>
+        <!-- End Map -->
+
+        <!-- Start Footer -->
+        <footer>
+            <div id="links">
+                <a href="https://fremaa.assam.gov.in">FLOOD AND RIVER EROSION MANAGEMENT AGENCY OF ASSAM (FREMAA)</a>
+                <p>&copy; 2023. Developed at <a href="https://fremaa.assam.gov.in">HIU-WRD</a></p>
+                
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+
+        <!-- Vendor Scripts -->
+        
+       
+        <script src="scripts/vendor/esri-leaflet.js"></script> <!-- Use ESRI Basemaps under ESRI TOS -->
+        <script src="scripts/vendor/leaflet-sidebar.js"></script> <!-- Sidebar plugin for Leaflet -->
+   
+        <script src="scripts/vendor/easy-button.js"></script> <!-- Font Awesome Buttons -->
+        
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> <!-- Twitter Bootstrap JavaScript Functions -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script> <!-- JavaScript Utility Library -->
+        <script src="scripts/vendor/jquery-ui-1.10.4.custom.min.js"></script> <!-- Used to make the sidebar resizeable -->
+
+        <!-- Custom Scripts -->
+        <script src="scripts/app2.js"></script> <!-- Scripts Specific to this Project -->
+        
+</body>
+</html>
