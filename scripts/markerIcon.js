@@ -6,12 +6,12 @@
 
     awlr = L.icon({
         iconUrl: 'assets/awlr.png',
-        iconSize: [28, 28]
+        iconSize: [32, 32]
     });
 
     arg = L.icon({
         iconUrl: 'assets/arg.png',
-        iconSize: [28, 28]
+        iconSize: [32, 32]
     });
 
     aws = L.icon({
