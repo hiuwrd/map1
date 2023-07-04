@@ -3,7 +3,7 @@
 /****************************/
 
 //globa map instantiation
-var map = L.map('map').setView([25.537167, 92.788140], 7);
+var map = L.map('map').setView([26.537167, 92.788140], 8);
 		
 //loading dist overlay file 
 var assam_js = $.ajax({
